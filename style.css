@@ -138,87 +138,51 @@ header {
 
 /*Awal card1*/
 /* TITLE */
+/* TITLE */
 .title1 {
-  font-size: 30px;
-  font-weight: 700;
-  letter-spacing: 0.5px;
-  color: #0f172a;
-  margin-bottom: 25px;
-  position: relative;
-}
-
-.title1::after {
-  content: "";
-  width: 70px;
-  height: 4px;
-  background: linear-gradient(90deg, #00aeff, #7c3aed);
-  display: block;
-  margin-top: 8px;
-  border-radius: 999px;
+  font-size: 28px;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 20px;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
 }
 
 /* CONTAINER */
 .cards1-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 26px;
+  gap: 22px;
   padding: 10px 0;
 }
 
 /* CARD */
 .card1 {
-  background: linear-gradient(
-    145deg,
-    rgba(255,255,255,0.85),
-    rgba(255,255,255,0.6)
-  );
-  backdrop-filter: blur(12px);
-  padding: 22px;
-  border-radius: 20px;
-  border: 1px solid rgba(255,255,255,0.4);
-  box-shadow: 0 15px 40px rgba(0,0,0,0.08);
-  transition: all 0.35s ease;
-  position: relative;
-  overflow: hidden;
-}
-
-/* GLOW EFFECT */
-.card1::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    120deg,
-    transparent,
-    rgba(0,174,255,0.15),
-    transparent
-  );
-  opacity: 0;
-  transition: opacity 0.4s ease;
-}
-
-.card1:hover::before {
-  opacity: 1;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 16px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.06);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .card1:hover {
-  transform: translateY(-10px) scale(1.02);
-  box-shadow: 0 30px 60px rgba(0,174,255,0.25);
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.10);
 }
 
 /* TITLE CARD */
 .card1 h3 {
-  font-size: 19px;
+  font-size: 17px;
   font-weight: 600;
-  margin-bottom: 10px;
-  color: #020617;
+  margin-bottom: 8px;
+  color: #111827;
 }
 
 /* TEXT */
 .card1 p {
-  font-size: 14.5px;
-  line-height: 1.7;
-  color: #475569;
+  font-size: 14px;
+  line-height: 1.65;
+  color: #4b5563;
 }
 
 
