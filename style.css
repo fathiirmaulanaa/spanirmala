@@ -137,54 +137,45 @@ header {
 
 
 /*Awal card1*/
-/* TITLE */
-/* TITLE */
-.title1 {
-  font-size: 28px;
-  font-weight: 600;
-  color: #1f2937;
-  margin-bottom: 20px;
-  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+.title1{
+  font-weight: bold;
+  font-size: 27px;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
-/* CONTAINER */
 .cards1-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 22px;
-  padding: 10px 0;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 20px;
 }
 
-/* CARD */
 .card1 {
-  background: #ffffff;
+  background: #ffffffcc;
+  backdrop-filter: blur(6px);
   padding: 20px;
-  border-radius: 16px;
-  border: 1px solid #e5e7eb;
-  box-shadow: 0 6px 16px rgba(0,0,0,0.06);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: 0.3s ease;
+  border: 1px solid #eee;
 }
 
 .card1:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 12px 24px rgba(0,0,0,0.10);
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 
-/* TITLE CARD */
 .card1 h3 {
-  font-size: 17px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
   font-weight: 600;
-  margin-bottom: 8px;
-  color: #111827;
 }
 
-/* TEXT */
 .card1 p {
   font-size: 14px;
-  line-height: 1.65;
-  color: #4b5563;
+  line-height: 1.6;
+  color: #555;
 }
-
 
 /*akhir card1*/
 
